@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TelaCurso.css"/>
+    <title>Guia JK</title>
+</head>
+<body>  
+<nav>
+    <a href="Home.php"><p id="guia">Guia</p></a>
+    <a href="Home.php"><h1 id="jk">JK</h1></a>
+    <div class="dropdown dropdown1">
+        <img id="imgPerfil" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAA0ZJREFUSEvllk2IHFUQx///6p5NVARj9LQXySFIdro3aKKC4EdIyJJcFD8w4klBoiKJehBBt1+vITkEox5MCIIXJeIHiIiGKKJgLtEVs9MzEsWb4kGiSMAFk+4q0z2zOLM7s92zI+TguzX96v+rqldV7xGXaPEScTE0+N37zDvzI0JV3Vw4rfL1hg1I7n+P2TBBDAWOw/QeM74KYHwR5GfCnowS/8Oq8MpgF2QvA9hbInzIJd4zVeCVwHH9wjajfNoWtG9Ie87E/zb/oqY3mvEAwCL1VN0StWpflMErgV2gnwG2FUAClU2uxfPdwm7CxiA6CyAw8HicyI6RwQ4mCPQvAKtBPOEa3uF+oi7MHofhNQDnkMgaB+py8NKIo7qFpM4VSYbtjBP/k36CUZDuIPhxp9InXIvfjwTeN2njqeovxfnRHowa/tv9BOMw3WXGY4WDvozH3/HXkcC5sQuy3wFcDWBg1boge+limp+G4axreteOfMYd8IsAnjcgE9rdUcP/qKe4gvQuA98n4BkQxYk389+Ar7PVuFJbANa1O8pOgpw1oEZYAPC2DugHqISLq76fE6XFtWDUKbK38pYZEE0iIrum55g7WLoqg4uUw4SBPqbG7aDdcjH9KYyzInbcGnK0rIW6vRkKXBrGEBsqgfdfb2vPj2W3QnkzyE2AruplyN8wm4XYKWTeSdfiH2U+LAt2G+0qpHoQxCN5G5eJdf4biKM2L8/GP/HcIJuBYi5M74XyCIhruoznAcunWM+sBjAGcBLA5V17f6PZ7qjpf1C5qmcmbLOKnuqK8g2BvPJCgiZB6ydkMLo6AlL3AHh4IXozuSluMr9AetaSiDs3TQJgPYB5oUxNN/hVxTQX22YCu12h+UzPM3AGKpOLe3spOMgOAXgqFyDs0SjxXx8G+m/fZ7tJHOl8Lxm1S8BRkM0TuMyMJ+KmTK0EumDjAv0csC155lziXTGwj4u2qenZIlqzB6Km/84o4KiePkTyzULDkzXuNP9c0OuJ2IV2A0zbTxrRqWiudmIkcNcdLZBwOmFeO8XqBdcv3AFK+71keqdr1r4cBeyW0esFFwMj3VjAfP90d2pW4kB7APXXqzqNVsJd1ub/B/4Hxio/Ljwd+MgAAAAASUVORK5CYII="/>
+        <div class="dropdown-content">
+            <div class="btn"><p id="pf"><a href="Telalogin.php">Login</a></p></div>
+            <div class="btn"><p id="pf"><a href="TelaCadastro.php">Cadastrar-se</a></p></div>
+            <section id="secdd">
+                <p id="pi">Entrar como <br>ADM</p>
+            </section>
+
+        </div>
+    </div>
+
+    <section id="link">
+        <a id="at" href="TelaTeste.html">Teste Vocacional</a>
+        <a id="at" href="MapaEscolar.html">Mapa Escolar</a>
+        <a id="at" href="TelaCurso.html">Sobre os Cursos</a>
+        <a id="at" href="SobreEscola.html">Sobre a Escola</a>
+    </section>
+</nav>
+
+<section id="sec1">
+    <br>
+    <br>
+    <h2 id="tv">CURSOS</h2>
+    <p><strong> JK temos 5 opções de cursos diferentes, venha conosco saber mais sobre elas!</strong></p>
+
+    <!--  Cartoes + u Java  -->
+    <div class="card">
+        <button onclick="scrollToSection('sec2')">INFORMÁTICA</button>
+        <button onclick="scrollToSection('sec3')">TURISMO</button>
+        <button onclick="scrollToSection('sec4')">ADMINISTRAÇÃO</button>
+        <button onclick="scrollToSection('sec6')">ANÁLISES</button>
+        <button onclick="scrollToSection('sec7')">ELETROTÉCNICA</button>
+    </div>
+    
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+    <p>Turismo para os exploradores, Administração para os mais lógicos, Análises para os apaixonados pela área de saúde,<br> e Eletrotécnica e Informática para os entusiastas das áreas exatas. :D</p>
+  </section>
+</section>
+
+<section id="sec2">
+    <br>
+    <img id="info" src="https://thumbs.dreamstime.com/b/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%80%89-%E7%9A%84%E5%AD%A6%E5%91%98-50483042.jpg" alt="img">
+    <h2 id="ui">INFORMÁTICA</h2>
+    <p id="ai">O curso técnico em Informática capacita os alunos para diversas áreas essenciais no mundo da tecnologia.
+               Durante o curso, os estudantes aprendem a desenvolver sistemas computacionais, realizando modelagem, testes,
+               implementação e manutenção. Além disso, eles adquirem habilidades em montagem e manutenção de microcomputadores,
+               instalação e configuração de redes, e também desenvolvimento de software e websites. Os profissionais formados 
+               nesse curso podem atuar em suporte técnico, administração de redes, segurança da informação,
+                análise de sistemas e outras áreas relacionadas.</p>
+</section>
+
+<section id="sec3">
+        <img id="tur" src="https://th.bing.com/th/id/OIP.tnbKNGE4qtb1xFCdtFNkpAHaE8?rs=1&pid=ImgDetMain" alt="img">
+        <h2 id="ae">TURISMO</h2>
+        <p id="ai">Um curso técnico em Turismo abrange uma ampla gama de tópicos, desde gestão de destinos e hospitalidade até agenciamento de viagens, como agências de viagens, hotéis, eventos e atrações turísticas. O curso prepara os estudantes para enfrentar os desafios dinâmicos e éticos do setor, contribuindo para o crescimento sustentável e a promoção de experiências turísticas enriquecedoras.</p>
+</section>
+
+<section id="sec4">
+    <br>
+    <img id="adm" src="https://th.bing.com/th/id/OIP.tlj-1WNufReV73QdO3nqnAHaEV?w=1500&h=879&rs=1&pid=ImgDetMain" alt="img">
+    <h2 id="ie">ADMINISTRAÇÃO</h2>
+    <p id="ai">O curso técnico em Administração capacita os alunos para funções essenciais na gestão e administração de organizações. Durante o curso, eles exploram tópicos como gestão de pessoas, finanças, marketing, empreendedorismo, organização e documentação, controle de estoque e inventário, e desenvolvem habilidades em liderança e tomada de decisão.</p>
+   
+</section>
+
+<section id="sec5">
+    <br>
+    <img id="ana" src="" alt="img">
+    <h2 id="ui">Eletrotécnica</h2>
+    <p id="ai">Um curso técnico em Turismo abrange uma ampla gama de tópicos, desde gestão de destinos e hospitalidade até agenciamento de viagens<br>. Os alunos aprendem habilidades práticas e conhecimentos teóricos essenciais para trabalhar em diversas áreas da indústria do turismo,<br> como agências de viagens, hotéis, eventos e atrações turísticas. O curso prepara os estudantes para enfrentar os desafios dinâmicos<br> e éticos do setor, contribuindo para o crescimento sustentável e a promoção de experiências turísticas enriquecedoras.</p>
+   
+</section>
+
+<section id="sec6">
+    <img id="ana" src="https://sismedica.com.mx/wp-content/uploads/2020/02/Principales-causas-y-s%C3%ADntomas-de-los-linfocitos-bajos-768x487.jpg" alt="img">
+    <h2 id="oi">ANÁLISES CLÍNICAS</h2>
+    <br>
+    <p id="ai">O curso de Análises Clínicas capacita profissionais para realizar análises laboratoriais em amostras biológicas, como sangue e urina, utilizando técnicas variadas. Os estudantes aprendem sobre biologia, química, hematologia, microbiologia, imunologia e bioquímica clínica, além de gestão de qualidade e biossegurança. Os graduados podem trabalhar em laboratórios clínicos, hospitais, indústrias farmacêuticas e de biotecnologia, contribuindo para diagnósticos precisos e tratamentos eficazes.</p>
+   
+</section>
+
+<section id="sec7">
+    <br>
+    <img id="eletro" src="https://th.bing.com/th/id/R.cfeabe346760db8f75bdfcd5cd5c62f3?rik=55Dh7B5gmS3hPA&pid=ImgRaw&r=0" alt="img">
+    <h2 id="uiu">ELETROTÉCNICA</h2>
+    <p id="ai">O curso técnico em Eletrotécnica capacita os alunos para coordenar e executar processos de instalação, manutenção e elaboração de projetos em sistemas elétricos prediais, industriais e de potência. Os profissionais formados nessa área seguem procedimentos e normas técnicas, garantindo qualidade, segurança, saúde e sustentabilidade. Durante o curso, os alunos também desenvolvem habilidades em uso eficiente da energia elétrica, programação de sistemas de acionamentos eletrônicos industriais e instalação de sistemas de aterramento e descargas atmosféricas.</p>
+</section>
+
+</body>
+</html>

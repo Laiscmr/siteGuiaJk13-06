@@ -1,0 +1,115 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(128, 45, 253);
+    background-size: cover;
+    background-position: center;    
+}
+
+
+form {
+    text-align: center;
+    height: 975px;
+    width: 450px;
+    background-color: transparent;
+    padding: 20px;
+    border: 2px solid rgba(255,255,255, .2);
+    border-radius: 20px;
+    backdrop-filter: blur(100px);
+    box-shadow: 0px 0px 10px rgba(0,0,0, .2);
+    margin: 50px auto;
+}
+
+input[type="text"], input[type="email"], input[type="password"], [input="date"] {
+    height: 18px;
+    width: 60%;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    padding: 20px;
+    border: 2px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 10px rgba(0,0,0, .2);
+    color: white;
+}
+
+input::placeholder {
+    text-align: left;
+    color: #f7eded;
+}
+img {
+    position: absolute;
+    right: 115px;
+    color: #f7eded;
+}
+#User {
+    bottom: 733px;
+}
+
+#imgEmail {
+    bottom: 633px;
+}
+#imgSenha {
+    bottom: 533px;
+}
+
+#imgCSenha {
+    bottom: 433px;
+}
+#cad {
+    
+    text-align: center;
+    font-family: "Franklin Gothic", sans-serif;
+    font-size: 500%;
+    color: #f7eded;
+}
+
+label {
+    font-weight: bold;
+    text-align: center;
+
+}
+
+input[type="date"]{
+    background-color: white;
+    width: 65%;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    position: relative;
+}
+
+
+input[type="submit"]:hover{
+    background-color: rgb(128, 45, 253);
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.471);
+    transition-duration: 0.7s;
+}
+input[type="submit"] {
+    background-color: #f7eded;
+    color: rgb(128, 45, 253);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 55%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    border-radius: 200px;
+    cursor: pointer;
+}
+p{
+    font-family: "Franklin Gothic", sans-serif;
+    color: #f1eded;
+}
